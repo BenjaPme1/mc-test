@@ -1,0 +1,215 @@
+[06Apr2026 20:50:52.267] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[06Apr2026 20:50:52.272] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.18 by Ubuntu; OS Linux arch amd64 version 6.8.0-1044-azure
+[06Apr2026 20:50:53.726] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Apr2026 20:50:53.803] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mc-test/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[06Apr2026 20:50:54.293] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-test/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[06Apr2026 20:50:54.297] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-test/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Apr2026 20:50:54.300] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-test/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Apr2026 20:50:54.302] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-test/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Apr2026 20:50:54.558] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[06Apr2026 20:50:54.560] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[06Apr2026 20:50:57.780] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Apr2026 20:50:58.028] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[06Apr2026 20:50:58.029] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.tradecycling.MixinConnector]
+[06Apr2026 20:50:58.031] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[06Apr2026 20:50:58.099] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[06Apr2026 20:50:58.434] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[06Apr2026 20:51:00.306] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[06Apr2026 20:51:00.307] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[06Apr2026 20:51:00.467] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[06Apr2026 20:51:06.689] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+
+[06Apr2026 20:51:07.369] [modloading-worker-0/INFO] [atomicstryker.multimine.common.MultiMine/]: mod instantiated
+[06Apr2026 20:51:07.375] [modloading-worker-0/INFO] [atomicstryker.multimine.common.MultiMine/]: MultiMineServer initializing
+[06Apr2026 20:51:07.608] [modloading-worker-0/INFO] [Collective/]: [Collective] JSON file 'entity_names.json' generation requested by mod 'villagernames'.
+[06Apr2026 20:51:07.765] [modloading-worker-0/INFO] [net.blay09.mods.balm.forge.config.ForgeBalmConfig/]: Registering config for waystones:common (COMMON) with 46 properties.
+[06Apr2026 20:51:07.837] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[06Apr2026 20:51:07.845] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[06Apr2026 20:51:07.848] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[06Apr2026 20:51:07.854] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[06Apr2026 20:51:07.856] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[06Apr2026 20:51:07.857] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[06Apr2026 20:51:07.869] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[06Apr2026 20:51:07.870] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[06Apr2026 20:51:07.940] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[06Apr2026 20:51:07.945] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[06Apr2026 20:51:07.947] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[06Apr2026 20:51:07.947] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[06Apr2026 20:51:07.947] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[06Apr2026 20:51:07.947] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[06Apr2026 20:51:07.947] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[06Apr2026 20:51:08.118] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[06Apr2026 20:51:08.123] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[06Apr2026 20:51:08.486] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.13.
+[06Apr2026 20:51:09.441] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[06Apr2026 20:51:12.165] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[06Apr2026 20:51:12.178] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[06Apr2026 20:51:12.816] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[06Apr2026 20:51:13.022] [main/INFO] [journeymap/]: Initializing Packet Registries
+[06Apr2026 20:51:13.143] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: AHEAD Current: 0.12.4+git.26c9d8e Target: null
+[06Apr2026 20:51:13.143] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[06Apr2026 20:51:13.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.4.2 Target: null
+[06Apr2026 20:51:13.190] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaintings] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paintings.json
+[06Apr2026 20:51:13.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaintings] Found status: AHEAD Current: 1.1.0 Target: null
+[06Apr2026 20:51:13.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[06Apr2026 20:51:13.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[06Apr2026 20:51:13.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[06Apr2026 20:51:13.715] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[06Apr2026 20:51:13.715] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwstairs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/stairs.json
+[06Apr2026 20:51:13.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwstairs] Found status: UP_TO_DATE Current: 1.0.2 Target: null
+[06Apr2026 20:51:13.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[06Apr2026 20:51:13.833] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.2.15 Target: 20.2.15
+[06Apr2026 20:51:13.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[06Apr2026 20:51:13.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: AHEAD Current: 1.1.5 Target: null
+[06Apr2026 20:51:13.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Apr2026 20:51:14.095] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[06Apr2026 20:51:14.096] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[06Apr2026 20:51:14.188] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: UP_TO_DATE Current: 3.4.14 Target: null
+[06Apr2026 20:51:14.189] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/paths.json
+[06Apr2026 20:51:14.207] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwpaths] Found status: UP_TO_DATE Current: 1.1.1 Target: null
+[06Apr2026 20:51:14.210] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
+[06Apr2026 20:51:14.225] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Found status: AHEAD Current: 3.1.2 Target: null
+[06Apr2026 20:51:14.228] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Starting version check at https://update.maxhenkel.de/forge/trade_cycling
+[06Apr2026 20:51:14.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [trade_cycling] Found status: AHEAD Current: 1.20.1-1.0.18 Target: null
+[06Apr2026 20:51:14.877] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwtrpdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/trapdoors.json
+[06Apr2026 20:51:14.894] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwtrpdoors] Found status: UP_TO_DATE Current: 1.1.5 Target: null
+[06Apr2026 20:51:14.894] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/fences.json
+[06Apr2026 20:51:14.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfences] Found status: UP_TO_DATE Current: 1.2.1 Target: null
+[06Apr2026 20:51:14.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[06Apr2026 20:51:14.921] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 9.0.7 Target: 9.0.9
+[06Apr2026 20:51:14.922] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/roofs.json
+[06Apr2026 20:51:14.933] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwroofs] Found status: UP_TO_DATE Current: 2.3.2 Target: null
+[06Apr2026 20:51:14.934] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/furniture.json
+[06Apr2026 20:51:14.943] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwfurnitures] Found status: UP_TO_DATE Current: 3.4.1 Target: null
+[06Apr2026 20:51:14.943] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/lights.json
+[06Apr2026 20:51:14.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwlights] Found status: UP_TO_DATE Current: 1.1.5 Target: null
+[06Apr2026 20:51:18.627] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Apr2026 20:51:22.145] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mc-test/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/assets/.mcassetsroot' uses unexpected schema
+[06Apr2026 20:51:22.146] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/mc-test/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23207!/data/.mcassetsroot' uses unexpected schema
+[06Apr2026 20:51:23.896] [Worker-Main-1/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-9.0.7.jar
+[06Apr2026 20:51:23.925] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.14.jar)
+[06Apr2026 20:51:23.939] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.14.jar)
+[06Apr2026 20:51:25.131] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[06Apr2026 20:51:25.279] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2266 advancements
+[06Apr2026 20:51:25.307] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[06Apr2026 20:51:25.316] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[06Apr2026 20:51:28.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Apr2026 20:51:28.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Apr2026 20:51:28.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Apr2026 20:51:28.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Apr2026 20:51:28.686] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Apr2026 20:51:28.751] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Apr2026 20:51:28.849] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Apr2026 20:51:28.849] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Apr2026 20:51:28.849] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Apr2026 20:51:28.850] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Apr2026 20:51:28.867] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[06Apr2026 20:51:28.868] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[06Apr2026 20:51:28.871] [Thread-2/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[06Apr2026 20:51:28.961] [Server thread/INFO] [Framework/]: Loading server configs...
+[06Apr2026 20:51:28.980] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Apr2026 20:51:32.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Apr2026 20:51:37.592] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.593] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.595] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.596] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.598] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.600] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.602] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.604] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.605] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.607] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:37.929] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Apr2026 20:51:38.428] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[06Apr2026 20:51:38.930] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[06Apr2026 20:51:39.429] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[06Apr2026 20:51:39.459] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6531 ms
+[06Apr2026 20:51:39.460] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.594s)! For help, type "help"
+[06Apr2026 20:51:39.505] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Apr2026 20:51:39.539] [Server thread/INFO] [atomicstryker.multimine.common.MultiMine/]: MultiMine ServerStartedEvent
+[06Apr2026 20:51:39.539] [Server thread/INFO] [atomicstryker.multimine.common.MultiMine/]: config loading now
+[06Apr2026 20:51:39.542] [Server thread/INFO] [atomicstryker.multimine.common.MultiMine/]: config loaded successfully
+[06Apr2026 20:52:12.898] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[06Apr2026 20:52:12.984] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ben[/100.68.174.116:50832] logged in with entity id 461 at (829.7492302518147, 67.0, -844.3158277918484)
+[06Apr2026 20:52:13.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben joined the game
+[06Apr2026 20:52:16.558] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3562ms or 71 ticks behind
+[06Apr2026 20:52:23.844] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Meu_by[/100.86.66.124:49875] logged in with entity id 809 at (307.95313691195577, 69.0, -1020.3927864222372)
+[06Apr2026 20:52:23.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by joined the game
+[06Apr2026 20:52:44.753] [Worker-Main-3/INFO] [citadel/]: merged 6 surface rules with vanilla rule SequenceRuleSource
+[06Apr2026 20:52:44.935] [Worker-Main-2/INFO] [bettercaves/]: CREATING AND INIT'ING MASTER CONTROLLER...
+[06Apr2026 20:53:51.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has made the advancement [Best Friends Forever]
+[06Apr2026 20:58:43.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Suit Up]
+[06Apr2026 20:58:46.228] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Acquire Hardware]
+[06Apr2026 21:09:17.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Knowledge of Death]
+[06Apr2026 21:09:17.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Funeral Theft]
+[06Apr2026 21:09:29.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has made the advancement [Suit Up]
+[06Apr2026 21:14:31.055] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Glynis'/10470, l='ServerLevel[world]', x=883.28, y=60.17, z=-872.66] died, message: 'Glynis was slain by Zombie'
+[06Apr2026 21:14:31.057] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Villager['Glynis'/10470, l='ServerLevel[world]', x=883.28, y=60.17, z=-872.66] died: Glynis was slain by Zombie
+[06Apr2026 21:15:46.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has made the advancement [A Strange Grave Dust]
+[06Apr2026 21:16:56.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Stone Age]
+[06Apr2026 21:18:00.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has made the advancement [Knowledge of Death]
+[06Apr2026 21:18:00.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has reached the goal [Strong or Careful]
+[06Apr2026 21:18:00.036] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben fell off a ladder
+[06Apr2026 21:18:00.052] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has made the advancement [Your First Grave]
+[06Apr2026 21:18:00.053] [Server thread/INFO] [tombstone/]: The player Ben has successfully been saved
+[06Apr2026 21:25:54.257] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Meu_by lost connection: Disconnected
+[06Apr2026 21:25:54.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by left the game
+[06Apr2026 21:29:08.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has made the advancement [Ashes 'n Bones]
+[06Apr2026 21:29:45.470] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Meu_by[/100.86.66.124:50062] logged in with entity id 14501 at (976.6552960332785, 220.5, -890.0483532628906)
+[06Apr2026 21:29:45.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by joined the game
+[06Apr2026 21:32:41.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Ambush]
+[06Apr2026 21:32:41.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Monster Hunter]
+[06Apr2026 21:32:47.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has reached the goal [Strong or Careful]
+[06Apr2026 21:32:47.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by was shot by Skeleton
+[06Apr2026 21:32:47.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Your First Grave]
+[06Apr2026 21:32:47.917] [Server thread/INFO] [tombstone/]: The player Meu_by has successfully been saved
+[06Apr2026 21:33:54.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has reached the goal [Here They Come]
+[06Apr2026 21:34:15.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben was slain by Meu_by
+[06Apr2026 21:34:15.465] [Server thread/INFO] [tombstone/]: The player Ben has successfully been saved
+[06Apr2026 21:35:06.995] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5349ms or 106 ticks behind
+[06Apr2026 21:36:38.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has made the advancement [Magic Writing]
+[06Apr2026 21:38:04.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Diamonds!]
+[06Apr2026 21:47:42.385] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Meu_by moved too quickly! 0.21390658210418678,-15.99853081682096,1.6736586924444055
+[06Apr2026 21:47:44.986] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Meu_by moved too quickly! 1.0274416989398105,-12.924399078630529,0.9021785022932818
+[06Apr2026 21:47:47.778] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Meu_by moved too quickly! 2.6952341230683032,-10.806526110008988,-0.22960529665851936
+[06Apr2026 21:48:21.968] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
+[06Apr2026 21:48:21.969] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[06Apr2026 21:48:21.969] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
+[06Apr2026 21:51:16.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Best Friends Forever]
+[06Apr2026 21:56:09.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by was slain by Husk
+[06Apr2026 21:56:09.660] [Server thread/INFO] [tombstone/]: The player Meu_by has successfully been saved
+[06Apr2026 21:57:12.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [Ashes 'n Bones]
+[06Apr2026 21:59:30.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by was slain by Husk
+[06Apr2026 21:59:30.712] [Server thread/INFO] [tombstone/]: The player Meu_by has successfully been saved
+[06Apr2026 21:59:58.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has reached the goal [Chain Death]
+[06Apr2026 21:59:58.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by was slain by Husk
+[06Apr2026 21:59:58.715] [Server thread/INFO] [tombstone/]: The player Meu_by has successfully been saved
+[06Apr2026 22:00:20.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by was slain by Husk
+[06Apr2026 22:00:20.665] [Server thread/INFO] [tombstone/]: The player Meu_by has successfully been saved
+[06Apr2026 22:03:02.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben was slain by Husk
+[06Apr2026 22:03:02.914] [Server thread/INFO] [tombstone/]: The player Ben has successfully been saved
+[06Apr2026 22:04:42.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by has made the advancement [A Strange Grave Dust]
+[06Apr2026 22:05:54.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Meu_by was slain by Husk
+[06Apr2026 22:05:54.025] [Server thread/INFO] [tombstone/]: The player Meu_by has successfully been saved
+[06Apr2026 22:07:04.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben was slain by Husk
+[06Apr2026 22:07:04.512] [Server thread/INFO] [tombstone/]: The player Ben has successfully been saved
+[06Apr2026 22:08:53.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has reached the goal [Here They Come]
+[06Apr2026 22:09:48.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben was slain by Husk
+[06Apr2026 22:09:48.217] [Server thread/INFO] [tombstone/]: The player Ben has successfully been saved
+[06Apr2026 22:14:43.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ben has reached the goal [Bone Crusher]
+[06Apr2026 22:22:43.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[06Apr2026 22:22:43.297] [Server thread/INFO] [atomicstryker.multimine.common.MultiMine/]: MultiMine ServerStoppingEvent
+[06Apr2026 22:22:43.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Apr2026 22:22:43.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Apr2026 22:22:43.342] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Apr2026 22:22:43.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06Apr2026 22:22:44.555] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06Apr2026 22:22:44.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06Apr2026 22:22:44.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06Apr2026 22:22:44.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Apr2026 22:22:44.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Apr2026 22:22:44.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Apr2026 22:22:44.848] [Server thread/INFO] [Framework/]: Unloading server configs...
+[06Apr2026 22:22:44.849] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[06Apr2026 22:22:44.853] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[06Apr2026 22:22:44.854] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
